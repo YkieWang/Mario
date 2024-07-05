@@ -24,4 +24,3 @@ include:
     shield: mario_left
   - board: nice_nano_v2
     shield: mario_right
-    cmake-args: -DCONFIG_ZMK_USB_LOGGING=y

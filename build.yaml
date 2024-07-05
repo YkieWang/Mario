@@ -17,3 +17,11 @@
 #     artifact-name: corne_left_with_logging
 #
 ---
+board: [ "nice_nano_v2" ]
+shield: [ "mario_left", "mario_right" ]
+include:
+  - board: nice_nano_v2
+    shield: mario_left
+  - board: nice_nano_v2
+    shield: mario_right
+    cmake-args: -DCONFIG_ZMK_USB_LOGGING=y

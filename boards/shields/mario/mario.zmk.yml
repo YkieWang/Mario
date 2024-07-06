@@ -2,7 +2,7 @@ file_format: "1"
 id: mario
 name: Mario
 type: shield
-url: https://github.com/foostan/crkbd/
+url: https://github.com/YkieWang/Mario
 requires: [pro_micro]
 exposes: [i2c_oled]
 features:

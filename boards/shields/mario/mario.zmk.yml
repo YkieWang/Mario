@@ -9,6 +9,7 @@ features:
   - keys
   - display
   - underglow
+  - encoder
 siblings:
   - mario_left
   - mario_right
